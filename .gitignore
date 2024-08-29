@@ -1,0 +1,30 @@
+# Python-specific ignores
+*.py[cod]
+__pycache__/
+
+# Virtual environments
+.env
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Spyder project settings
+.spyderproject
+.spyproject/
+
+# Rope project settings
+.ropeproject/
+
+# mkdocs documentation
+/site/
+
+# mypy
+.mypy_cache/
+
+/data
+
+# Pyre type checker
+.pyre/
+
+.csv
