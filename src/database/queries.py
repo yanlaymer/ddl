@@ -12,6 +12,8 @@ def load_mt4_trades(engine):
     return pd.read_sql(query, con=engine)
 
 def load_mt5_deals(engine):
+    
+    logger.info("Loading MT5 deals...")
     query = """
         SELECT * FROM hr_vacancies.mt5_deals
     """
